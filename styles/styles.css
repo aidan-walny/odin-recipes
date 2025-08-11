@@ -1,0 +1,51 @@
+/* CSS Styles */
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(42, 165, 63);
+}
+
+.food-img{
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: yellow;
+    
+}
+
+.description-head{
+    text-align: left;
+    margin-left: 75px;
+}
+
+.description-text,.ingredients, .steps, .recipes{
+    text-align: center;
+}
+
+.ingredients-list, .steps-list, .recpie-items{
+    display: inline-block;
+    text-align: left;
+    margin-top: 0;
+}
+
+.home-button{
+    display: inline-block;
+}
+
+.home-link{
+    display: block;
+    text-align: center;
+    border-style: dashed;
+    padding: 15px;
+    margin: 15px;
+}
+
+a:hover{
+    color: green;
+}
